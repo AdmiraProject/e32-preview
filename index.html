@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estudio 32 · Propuestas de landing</title>
+<link rel="icon" href="media/img/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&family=Instrument+Serif:ital@0;1&family=Noto+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/e32.css?v=46">
+<style>
+body{background:var(--dark);color:#fff;min-height:100vh}
+.ix{padding:72px 0 96px}
+.ix-top{display:flex;align-items:center;gap:16px;margin-bottom:64px}
+.ix-top img{height:56px}
+.ix h1{font-size:clamp(40px,5vw,72px);font-weight:400;letter-spacing:-.03em;line-height:1.02;margin:18px 0 16px;max-width:16ch}
+.ix .lead{color:#ffffffa6;max-width:58ch}
+.ix-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:56px}
+.ix-c{border-radius:var(--r-lg);overflow:hidden;background:var(--dark-2);border:1px solid var(--dark-line);transition:transform .5s var(--ease),border-color .3s}
+.ix-c:hover{transform:translateY(-4px);border-color:#d7a22666}
+.ix-c .im{aspect-ratio:16/9;position:relative;overflow:hidden}
+.ix-c .im img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .8s}
+.ix-c .im img+img{opacity:0}.ix-c:hover .im img+img{opacity:1}
+.ix-c .im span{position:absolute;top:16px;left:16px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:7px 12px;border-radius:999px;background:var(--gold);color:var(--ink);font-weight:500}
+.ix-c .tx{padding:24px 26px 28px;display:flex;justify-content:space-between;align-items:flex-end;gap:20px}
+.ix-c h2{font-size:24px;font-weight:400;letter-spacing:-.02em;line-height:1.2}
+.ix-c p{font-size:14px;color:#ffffff8c;margin-top:6px}
+.ix-c .go{width:46px;height:46px;border-radius:50%;background:#fff;color:var(--ink);display:grid;place-items:center;font-size:18px;flex:none}
+.ix-row{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#ffffff66;margin:48px 0 -36px}
+@media (max-width:760px){.ix-grid{grid-template-columns:1fr}.ix{padding:40px 0 64px}}
+</style>
+</head>
+<body>
+<div class="wrap ix">
+  <div class="ix-top"><img src="media/img/logo.png" alt="Estudio 32"></div>
+  <span class="eyebrow" style="color:var(--gold)">Propuesta Dinametra · Noviembre 2026</span>
+  <h1>Dos landings, <em>dos héroes.</em></h1>
+  <p class="lead">Casas (B2C) y Negocios (B2B), cada una en dos versiones de hero: A, tarjeta animada estilo Luuna, y B, película a pantalla completa que transforma el espacio al hacer scroll. Mismo sistema, mismas secciones, contenido real de e32.mx.</p>
+  <p class="ix-row">Casas · B2C</p>
+  <div class="ix-grid">
+    <a class="ix-c" href="casas-a.html"><div class="im"><img src="media/hero/home-after.webp" alt=""><img src="media/hero/home-before.webp" alt=""><span>A · Tarjeta animada</span></div><div class="tx"><div><h2>Casas · Hero tarjeta</h2><p>Carrusel animado con video de transformación, antes/después y obra real.</p></div><span class="go"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+    <a class="ix-c" href="casas-b.html"><div class="im"><img src="media/hero/home-after.webp" alt=""><img src="media/hero/home-before.webp" alt=""><span>B · Película scroll</span></div><div class="tx"><div><h2>Casas · Hero película</h2><p>De casa cara y mal decorada a casa terminada y equipada, al ritmo del scroll.</p></div><span class="go"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+  </div>
+  <p class="ix-row">Negocios · B2B</p>
+  <div class="ix-grid">
+    <a class="ix-c" href="negocios-a.html"><div class="im"><img src="media/hero/local-after.webp" alt=""><img src="media/hero/local-before.webp" alt=""><span>A · Tarjeta animada</span></div><div class="tx"><div><h2>Negocios · Hero tarjeta</h2><p>Oficinas, lobbies, restaurantes y locales con el mismo carrusel.</p></div><span class="go"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+    <a class="ix-c" href="negocios-b.html"><div class="im"><img src="media/hero/local-after.webp" alt=""><img src="media/hero/local-before.webp" alt=""><span>B · Película scroll</span></div><div class="tx"><div><h2>Negocios · Hero película</h2><p>De obra gris a lobby terminado, listo para operar.</p></div><span class="go"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+  </div>
+</div>
+</body>
+</html>
